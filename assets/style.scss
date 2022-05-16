@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+}
+
+
+.countries {
+  background-image: url("https://images.pexels.com/photos/87651/earth-blue-planet-globe-planet-87651.jpeg");
+  padding-top: 50px;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2 {
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  .countries-list {
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    li {
+      position: relative;
+      width: 300px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 40px;
+      background-color: #3f51b5;
+      color: white;
+      font-weight: bold;
+      padding: 5px;
+      .actions {
+        a {
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+      button {
+        padding: 5px;
+      }
+      .sub-cities {
+        position: absolute;
+        top: 45px;
+        right: 0;
+        .sub-cities-azerb {
+          display: none;
+          li {
+            border: 1px solid black;
+          }
+        }
+        .sub-cities-ukr{
+          display: none;
+          li {
+            border: 1px solid black;
+          }
+        }
+        .sub-cities-turk {
+          display: none;
+          li {
+            border: 1px solid black;
+          }
+        }
+      }
+    }
+  }
+}
+
+.cities {
+  background-image: url("https://images.pexels.com/photos/87651/earth-blue-planet-globe-planet-87651.jpeg");
+  display: flex;
+  padding-top: 30px;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  .addDelete {
+    a {
+      color: #fff;
+    }
+  }
+  h3 {
+    color: #fff;
+    margin-bottom: 15px;
+  }
+  ul {
+    li {
+      width: 220px;
+      display: flex;
+      justify-content: space-between;
+      padding: 5px;
+      background-color: #3f51b5;
+      color: white;
+      font-size: 16px;
+      border: 2px solid #fff;
+    }
+  }
+}
+
+.create-city {
+  padding-top: 50px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("https://images.pexels.com/photos/87651/earth-blue-planet-globe-planet-87651.jpeg");
+  a {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  h2 {
+    margin-bottom: 30px;
+    color: #fff;
+  }
+  select {
+    padding: 10px;
+    border-radius: 10px;
+  }
+  input {
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
+
+.city {
+  padding-top: 50px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("https://images.pexels.com/photos/87651/earth-blue-planet-globe-planet-87651.jpeg");
+  form {
+    h3 {
+      color: #fff;
+      margin-bottom: 10px;
+    }
+  }
+  .forEdit {
+    input {
+      padding: 10px
+    }
+  }
+}
